@@ -100,7 +100,7 @@ holidays_with_BBQ = []
     end
 
    end
-  holidays_with_BBQ.uniq
+  holidays_with_BBQ
 end
 
 
