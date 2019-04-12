@@ -22,7 +22,7 @@ holiday_hash.each do |season, value|
   value.each do |holiday, item|
 
     if holiday == :fourth_of_july
-      item.each. do |thing|
+      item.each.starts_with?("B") do |thing|
   
         puts "#{thing}"
       end
