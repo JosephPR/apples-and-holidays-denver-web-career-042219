@@ -22,9 +22,9 @@ holiday_hash.each do |season, value|
   value.each do |holiday, item|
 
     if holiday == :fourth_of_july
-      item.each do ||
-        # here, each index element in an ice cream flavor string
-        puts "#{flavor}"
+      item.each. do |thing|
+  
+        puts "#{thing}"
       end
     end
   end
