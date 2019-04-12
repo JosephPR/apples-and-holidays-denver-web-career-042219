@@ -21,6 +21,13 @@ def second_supply_for_fourth_of_july(holiday_hash)
 holiday_hash.each do |season, value|  
   value.each do |holiday, item|
 
+    if holiday == :fourth_of_july
+      item.each do ||
+        # here, each index element in an ice cream flavor string
+        puts "#{flavor}"
+      end
+    end
+  end
 end
 
 def add_supply_to_winter_holidays(holiday_hash, supply)
